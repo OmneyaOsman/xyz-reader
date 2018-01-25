@@ -51,7 +51,7 @@
                     android:fontFamily="sans-serif-condensed"
                     android:lineSpacingMultiplier="0.9"
                     android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                    android:textColor="#000000"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/detail_title_text_size"
                     android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                     style="?android:attr/textAppearanceSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/ltgray" />
+                    android:textColor="@color/colorPrimary" />
             </LinearLayout>
 
 
@@ -76,7 +76,7 @@
                 android:layout_marginRight="@dimen/detail_inner_horiz_margin"
                 android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                 android:paddingBottom="@dimen/detail_body_bottom_margin"
-                android:textColor="@color/black"
+                android:textColor="@color/colorPrimaryDark"
                 android:textColorLink="@color/colorAccent"
                 android:textSize="@dimen/detail_body_text_size"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -107,7 +107,7 @@
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginStart="@dimen/fab_margin"
         android:layout_marginTop="@dimen/fab_margin"
-        android:elevation="@dimen/padding_32"
+        android:elevation="@dimen/fab_elevation_12"
         android:src="@drawable/ic_share"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"

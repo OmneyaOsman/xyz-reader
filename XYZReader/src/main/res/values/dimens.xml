@@ -12,5 +12,6 @@
     <dimen name="padding_4">4dp</dimen>
     <dimen name="padding_16">16dp</dimen>
     <dimen name="padding_32">32dp</dimen>
+    <dimen name="fab_elevation_12">12dp</dimen>
 
 </resources>
